@@ -1,0 +1,43 @@
+@import 'variables';
+
+body {
+  text-align: center;
+  margin: 10px;
+
+  header {  
+    padding: 10px;
+    font-weight: 700;
+    font-size: 2em;
+    background-color: $root-color;
+    color: $accent-color;
+  }
+
+  main {
+    padding: 10px;
+    font-size: 1em;
+    background-color: $accent-color;
+    color: $root-color;
+
+    img {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      margin-left: 35%;
+      margin-right: 35%;
+    }
+    
+    span {
+      padding: 10px;
+      font-size: 1.6em;
+      font-style: italic;
+    }
+  }
+
+  footer {
+    padding: 10px;
+    font-style: italic;
+    font-size: 0.7em;
+    background-color: $root-color;
+    color: $accent-color;
+  }
+} 

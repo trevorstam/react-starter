@@ -1,0 +1,7 @@
+@mixin borderRadius($radius) {
+  border-radius: $radius;
+}
+
+@mixin rightBleed($bleed) {
+  bleed: $bleed;
+}
